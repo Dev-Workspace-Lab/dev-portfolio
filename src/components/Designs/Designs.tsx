@@ -6,12 +6,14 @@ function Designs() {
     <section className="designs" id="creative">
       <div className="designs__container">
         <div className="designs__header">
-          <p className="designs__eyebrow">Creative Designs</p>
-          <h2>Marketing Campaigns & Branding</h2>
+          <p className="designs__eyebrow">Creative & Visual Design</p>
+
+          <h2>Branding, Marketing & Visual Concepts</h2>
+
           <p>
-            Branding, product marketing visuals, advertising concepts,
-            and promotional assets created using Adobe Photoshop and
-            AI-assisted creative workflows.
+            Visual design work covering branding concepts, product graphics,
+            promotional campaigns, advertising assets, and digital content
+            created with Adobe Photoshop and AI-assisted creative workflows.
           </p>
         </div>
 

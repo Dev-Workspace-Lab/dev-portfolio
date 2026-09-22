@@ -1,5 +1,5 @@
 import financePreview from "../assets/images/projects/finance-preview.png";
-import dashboardPreview from "../assets/images/projects/admin-preview.png";
+import cryptoPreview from "../assets/images/projects/crypto-preview.png";
 import maisonPreview from "../assets/images/projects/maisonPreview.png";
 
 export type Project = {
@@ -15,28 +15,28 @@ export const projects: Project[] = [
     {
         title: "Personal Finance Platform",
         description:
-            "A responsive finance dashboard for managing income, expenses, budgets, and user authentication.",
+            "A responsive personal finance dashboard for managing income, expenses, budgets, and user authentication.",
         tech: ["React", "JavaScript", "CSS"],
-        liveUrl: "https://budgetbee-personal-finance-tracker.vercel.app/",
-        githubUrl: "https://github.com/AliUIDev/personal-finance-tracker",
+        liveUrl: "https://budgetbee-finance.vercel.app/",
+        githubUrl: "https://github.com/Dev-Workspace-Lab/budgetbee-finance",
         image: financePreview,
     },
     {
-        title: "Admin Dashboard UI",
+        title: "Crypto Price Tracker",
         description:
-            "A responsive admin dashboard UI focused on layout structure, reusable components, and modern interface design.",
+            "A live cryptocurrency price tracker with conversion tools for comparing crypto values with fiat currencies.",
         tech: ["React", "JavaScript", "CSS"],
-        liveUrl: "https://admin-dashboard-app-ui.vercel.app/",
-        githubUrl: "https://github.com/AliUIDev/admin-dashboard",
-        image: dashboardPreview,
+        liveUrl: "https://crypto-price-tracker-gilt.vercel.app/",
+        githubUrl: "https://github.com/Dev-Workspace-Lab/crypto-price-tracker",
+        image: cryptoPreview,
     },
     {
         title: "MAISON Operations Ledger",
         description:
             "A luxury retail operations dashboard for visualizing business metrics, reports, and performance insights.",
         tech: ["React", "TypeScript", "SCSS", "Recharts"],
-        liveUrl: "https://maison-operations-ledger.vercel.app/",
-        githubUrl: "https://github.com/AliUIDev/maison-operations-ledger",
+        liveUrl: "https://maison-ops-seven.vercel.app/",
+        githubUrl: "https://github.com/Dev-Workspace-Lab/maison-ops",
         image: maisonPreview,
     },
 ];
